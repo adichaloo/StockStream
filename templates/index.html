@@ -1,0 +1,264 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background-color: cadetblue;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
+		h1 {
+			background-color: darkolivegreen;
+			color: white;
+		}
+
+		h3 {
+			background-color: green;
+			color: white;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Float four columns side by side */
+		.column {
+			float: none;
+			width: 25%;
+			padding: 0 10px;
+			margin-left: 40%;
+		}
+
+		/* Remove extra left and right margins, due to padding */
+		.row {
+			margin: 0 -5px;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Responsive columns */
+		@media screen and (max-width: 600px) {
+			.column {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+				
+			}
+		}
+
+		/* Style the counter cards */
+		.card {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			padding: 16px;
+			text-align: center;
+			background-color: #f1f1f1;
+			
+		}
+	.footer {
+  position: fixed;
+  font-family: cursive;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:aquamarine;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
+	</style>
+</head>
+<meta charset="utf-8">
+<title>ML DEPLOY</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+	integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+<!-- Bootstraps Java Scipts Links -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+ 
+ 
+<!-- JQuery links  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+ 
+<!--High CHART LIVE  -->
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+ 
+
+</head>
+
+<body>
+
+
+<div class="jumbotron">
+	<h1 class="text-center text-white">Welcome To Stock Data Visualization </h1>
+</div>
+<br>
+<br>
+
+<div class="container-fluid">
+
+	<div class="row">
+
+		<div class="col-2 jumbotron p-2 mx-1">
+			<h1 class="sensor1"> Sensor : </h1>
+		</div>
+		<br>
+
+		<div class="col-4 jumbotron p-2 mx-1">
+			<h1 class="sensor2">Sensor :</h1>
+		</div>
+		<br>
+
+	</div>
+</div>
+
+<style>
+	.jumbotron{
+		widows: 100px;
+		height: 100px;
+		justify-content: center;
+	}
+
+</style>
+
+<div class="container-fluid">
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="container-fluid" id="stock_data">
+
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<br>
+
+
+<script>
+	var chartData;
+
+	function requestData()
+	{
+		// Ajax call to get the Data from Flask
+		var requests = $.get('/data');
+
+		var tm = requests.done(function (result)
+		{
+			var seriesData = chartData.series[0],
+				shiftData = seriesData.data.length >6;
+
+			// Add the Point
+		  
+			var data1 = [];
+			data1.push(result[0]);
+			data1.push(result[1]);
+
+			var data3 = [];
+			data3.push(result[0]);
+			data3.push(result[2]);
+
+			chartData.series[0].addPoint(data1, true, shiftData);
+			chartData.series[1].addPoint(data3, true, shiftData);
+
+			$(".sensor1").text("");
+			$(".sensor1").text("Close : " +  data1[1] );
+
+			$(".sensor2").text("");
+			$(".sensor2").text("Prediction : " +  data3[1] );
+
+			// call it again after one second
+			setTimeout(requestData, 3000);
+
+		});
+	}
+
+	$(document).ready(function()
+	{
+		Highcharts.setOptions({
+		time: {
+				timezoneOffset: -5.5 * 60,
+				useUTC: true,
+				}
+		})
+		chartData = new Highcharts.Chart({
+			
+			chart:
+				{
+				renderTo: 'stock_data',
+				defaultSeriesType: 'line',
+				events: {
+					load: requestData
+						}
+				},
+			title:
+				{
+				text: 'Stock Data Prediction'
+				},
+			xAxis: {
+				type: 'datetime',
+				tickPixelInterval: 150,
+				maxZoom: 20 * 1000,
+				labels: {
+							formatter: function() {
+							return Highcharts.dateFormat('%Y/%b/%d %H:%M', this.value);
+							}
+						}
+				},
+			yAxis: {
+				
+				minPadding: 0.2,
+				maxPadding: 0.2,
+				title: {
+					text: 'Value',
+					margin: 80
+						}
+					 },
+			yAxis: {
+			   
+				minPadding: 0.2,
+				maxPadding: 0.2,
+				title: {
+					text: 'Value',
+					margin: 80
+						}
+					 },
+			legend: {
+				floating: false,
+				align: 'center',
+				verticalAlign:"bottom",
+				borderWidth: 1
+			},
+			series: [{
+				color:'#00ff00',
+				lineColor: '#00ff00',
+				name: 'Close',
+				data: []
+			},{
+				color:'#0000FF',
+				lineColor: '#0000FF',
+				name: 'Prediction',
+				data: []
+			}]
+		});
+	 });
+</script>
+
+</body>
+</html>
