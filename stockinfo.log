@@ -2285,3 +2285,574 @@ or in your python installation, that is printing to standard output
 2023-12-01 17:31:48,068:close:INFO:Closing down clientserver connection
 2023-12-01 17:53:33,714:close:INFO:Closing the Kafka producer with 0 secs timeout.
 2023-12-01 17:53:33,716:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-01 18:17:47,532:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:17:47,536:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:17:47,537:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:17:47,667:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:17:47,667:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:17:47,672:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:17:47,673:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:17:47,673:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:18:19,717:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:18:19,717:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:18:19,718:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:18:19,825:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:18:19,825:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:18:19,826:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:18:19,826:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:18:19,830:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 18:18:19,832:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:18:19,934:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:18:19,935:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:18:46,661:close:INFO:Closing down clientserver connection
+2023-12-01 18:18:53,683:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:18:53,683:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:18:53,683:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:18:53,791:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:18:53,792:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:18:53,792:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:18:53,792:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:18:53,795:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 18:18:53,797:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:18:53,903:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:18:53,903:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:18:54,650:close:INFO:Closing down clientserver connection
+2023-12-01 18:18:59,585:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:18:59,585:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:18:59,585:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:18:59,689:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:18:59,689:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:18:59,689:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:18:59,690:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:18:59,703:_log:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2023-12-01 18:18:59,704:_log:INFO:[33mPress CTRL+C to quit[0m
+2023-12-01 18:18:59,704:_log:INFO: * Restarting with stat
+2023-12-01 18:19:01,944:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:19:01,944:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:19:01,945:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:19:02,053:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:19:02,053:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:19:02,054:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:19:02,054:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:19:02,064:_log:WARNING: * Debugger is active!
+2023-12-01 18:19:02,087:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 18:19:10,524:_log:INFO:127.0.0.1 - - [01/Dec/2023 18:19:10] "GET / HTTP/1.1" 200 -
+2023-12-01 18:19:10,654:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 18:19:10,664:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:19:10,767:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:19:10,767:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:19:14,949:StockPricePrediction:ERROR:generator already executing
+2023-12-01 18:19:16,954:_log:INFO:127.0.0.1 - - [01/Dec/2023 18:19:16] "GET /data HTTP/1.1" 200 -
+2023-12-01 18:21:21,289:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/Consumer.py', reloading
+2023-12-01 18:21:21,289:close:INFO:Closing down clientserver connection
+2023-12-01 18:21:21,290:close:INFO:Closing down clientserver connection
+2023-12-01 18:21:21,415:_log:INFO: * Restarting with stat
+2023-12-01 18:21:24,009:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:21:24,009:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:21:24,010:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:21:24,112:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:21:24,112:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:21:24,113:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:21:24,113:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:21:24,122:_log:WARNING: * Debugger is active!
+2023-12-01 18:21:24,136:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 18:23:19,215:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/Consumer.py', reloading
+2023-12-01 18:23:19,216:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:19,308:_log:INFO: * Restarting with stat
+2023-12-01 18:23:21,789:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:23:21,789:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:23:21,790:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:23:21,898:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:23:21,898:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:23:21,898:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:23:21,898:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:23:21,909:_log:WARNING: * Debugger is active!
+2023-12-01 18:23:21,928:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 18:23:24,486:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:24,616:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:28,344:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:23:28,345:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:23:28,345:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:23:28,453:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:23:28,453:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:23:28,453:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:23:28,454:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:23:28,463:_log:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2023-12-01 18:23:28,463:_log:INFO:[33mPress CTRL+C to quit[0m
+2023-12-01 18:23:28,464:_log:INFO: * Restarting with stat
+2023-12-01 18:23:30,670:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:23:30,670:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:23:30,671:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:23:30,775:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:23:30,775:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:23:30,775:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:23:30,776:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:23:30,784:_log:WARNING: * Debugger is active!
+2023-12-01 18:23:30,802:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 18:23:37,907:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 18:23:37,912:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:23:38,019:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:23:38,020:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:23:40,392:data:INFO:Object of type DataFrame is not JSON serializable
+2023-12-01 18:23:40,392:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:42,273:data:INFO:Object of type DataFrame is not JSON serializable
+2023-12-01 18:23:42,273:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:45,270:data:INFO:Object of type DataFrame is not JSON serializable
+2023-12-01 18:23:45,270:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:54,023:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/Consumer.py', reloading
+2023-12-01 18:23:54,024:close:INFO:Closing down clientserver connection
+2023-12-01 18:23:54,151:_log:INFO: * Restarting with stat
+2023-12-01 18:23:56,685:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:23:56,686:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:23:56,686:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:23:56,794:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:23:56,794:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:23:56,795:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:23:56,795:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:23:56,807:_log:WARNING: * Debugger is active!
+2023-12-01 18:23:56,828:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 18:23:56,836:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 18:23:56,838:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 18:23:56,944:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 18:23:56,944:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 18:24:00,393:_log:INFO:127.0.0.1 - - [01/Dec/2023 18:24:00] "GET /data HTTP/1.1" 200 -
+2023-12-01 18:24:00,394:close:INFO:Closing down clientserver connection
+2023-12-01 18:24:12,125:_log:INFO:127.0.0.1 - - [01/Dec/2023 18:24:12] "GET /data HTTP/1.1" 200 -
+2023-12-01 18:24:12,126:close:INFO:Closing down clientserver connection
+2023-12-01 18:24:30,161:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/Consumer.py', reloading
+2023-12-01 18:24:30,162:close:INFO:Closing down clientserver connection
+2023-12-01 18:24:30,288:_log:INFO: * Restarting with stat
+2023-12-01 18:24:32,728:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 18:24:32,728:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 18:24:32,729:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 18:24:32,837:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 18:24:32,837:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 18:24:32,837:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 18:24:32,837:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 18:24:32,846:_log:WARNING: * Debugger is active!
+2023-12-01 18:24:32,864:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 19:43:19,016:_maybe_close_oldest_connection:INFO:Closing idle connection 0, last active 3651044 ms ago
+2023-12-01 19:43:19,085:close:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connected> [IPv4 ('172.31.254.167', 9092)]>: Closing connection. 
+2023-12-01 19:43:19,428:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,430:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,485:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,485:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,538:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,538:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,591:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,591:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,717:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,718:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,772:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,772:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,825:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,825:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,905:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,906:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:19,994:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:19,995:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,063:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,063:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,116:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,116:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,169:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,169:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,224:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,224:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,278:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,278:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,348:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,348:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,402:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,402:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,456:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,457:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,512:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,512:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,566:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,566:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,619:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,619:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,673:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,673:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,725:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,725:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,778:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,778:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,829:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,830:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,890:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,890:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,933:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,934:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:20,987:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:20,987:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,039:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,039:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,091:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,091:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,142:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,142:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,193:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,193:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,244:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,244:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,294:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,295:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,347:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,347:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,403:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,404:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,452:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,452:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,504:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,505:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,556:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,556:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,609:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,609:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,661:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,661:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,713:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,713:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,765:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,765:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,817:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,818:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,870:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,870:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,922:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,922:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:21,973:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:21,974:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,027:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,028:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,077:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,078:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,130:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,130:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,179:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,179:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,231:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,232:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,284:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,284:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,336:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,336:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,386:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,387:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,440:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,440:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,492:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,492:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,546:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,547:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,595:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,595:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,646:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,647:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,697:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,697:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,749:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,749:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,800:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,801:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,853:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,853:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,905:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,905:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:22,957:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:22,958:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,010:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,010:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,061:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,062:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,114:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,114:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,165:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,165:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,217:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,217:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,270:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,270:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,321:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,321:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,374:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,374:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,425:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,425:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,477:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,477:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,528:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,529:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,581:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,582:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,633:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,634:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,689:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,690:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,744:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,745:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,794:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,794:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,844:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,844:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,901:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,901:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:23,954:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:23,954:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,004:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,004:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,055:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,055:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,108:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,108:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,159:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,159:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,212:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,213:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,264:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,264:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,315:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,316:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,367:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,367:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,419:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,419:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,470:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,470:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,523:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,523:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,576:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,576:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,630:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,630:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,682:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,682:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,735:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,736:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,786:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,786:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,838:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,838:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,888:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,888:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,941:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,942:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:24,993:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:24,994:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,048:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,048:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,096:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,097:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,148:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,148:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,199:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,199:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,251:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,252:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,304:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,304:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,355:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,356:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,417:dns_lookup:WARNING:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092, exception was [Errno 8] nodename nor servname provided, or not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2023-12-01 19:43:25,417:_dns_lookup:ERROR:DNS lookup failed for vl965-172-31-254-167.wireless.umass.edu:9092 (0)
+2023-12-01 19:43:25,476:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 19:43:25,477:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 19:55:25,091:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/Consumer.py', reloading
+2023-12-01 19:55:25,095:close:INFO:Closing down clientserver connection
+2023-12-01 19:55:25,222:_log:INFO: * Restarting with stat
+2023-12-01 19:55:28,855:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 19:55:28,855:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 19:55:28,856:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 19:55:28,964:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 19:55:28,964:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 19:55:28,965:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 19:55:28,965:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 19:55:28,974:_log:WARNING: * Debugger is active!
+2023-12-01 19:55:28,994:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 20:12:21,410:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/app.py', reloading
+2023-12-01 20:12:21,413:close:INFO:Closing down clientserver connection
+2023-12-01 20:12:21,533:_log:INFO: * Restarting with stat
+2023-12-01 20:12:24,084:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:12:24,085:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:12:24,085:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:12:24,193:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:12:24,193:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:12:24,194:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:12:24,194:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:12:25,200:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:12:25,200:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:12:25,200:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:12:25,308:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:12:25,308:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:12:25,309:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:12:25,309:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:12:25,311:_log:WARNING: * Debugger is active!
+2023-12-01 20:12:25,322:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 20:12:25,327:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 20:12:25,333:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 20:12:25,433:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 20:12:25,433:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 20:12:39,450:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:12:39] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:12:58,257:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:12:58] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:16:49,975:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:16:49] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:18:59,652:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:18:59] "[33mGET /null HTTP/1.1[0m" 404 -
+2023-12-01 20:19:06,964:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:19:06] "[33mGET /null HTTP/1.1[0m" 404 -
+2023-12-01 20:25:45,748:_log:INFO: * Detected change in '/Users/mnswdhw/Documents/Courses/CS532/Stock_Data_Prediction/Stock_Data_Prediction_Of_Live_Data/app.py', reloading
+2023-12-01 20:25:59,721:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:25:59] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:26:59,190:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:26:59] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:28:56,847:close:INFO:Closing down clientserver connection
+2023-12-01 20:28:57,009:close:INFO:Closing down clientserver connection
+2023-12-01 20:31:08,618:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:31:08,618:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:31:08,619:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:31:08,727:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:31:08,727:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:31:08,728:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:31:08,728:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:31:08,929:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:31:08,929:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:31:08,930:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:31:09,037:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:31:09,037:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:31:09,037:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:31:09,037:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:31:09,040:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 20:31:09,040:_log:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2023-12-01 20:31:09,040:_log:INFO:[33mPress CTRL+C to quit[0m
+2023-12-01 20:31:09,040:_log:INFO: * Restarting with stat
+2023-12-01 20:31:09,042:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 20:31:09,148:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 20:31:09,148:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 20:31:11,253:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:31:11,254:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:31:11,254:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:31:11,358:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:31:11,358:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:31:11,358:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:31:11,359:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:31:11,509:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-01 20:31:11,509:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-01 20:31:11,509:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-01 20:31:11,617:check_version:INFO:Broker version identified as 2.5.0
+2023-12-01 20:31:11,617:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-01 20:31:11,617:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-01 20:31:11,617:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-01 20:31:11,619:_log:WARNING: * Debugger is active!
+2023-12-01 20:31:11,630:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-01 20:31:11,634:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: connecting to vl965-172-31-254-167.wireless.umass.edu:9092 [('172.31.254.167', 9092) IPv4]
+2023-12-01 20:31:11,646:_log:INFO: * Debugger PIN: 514-370-077
+2023-12-01 20:31:11,739:connect:INFO:<BrokerConnection node_id=0 host=vl965-172-31-254-167.wireless.umass.edu:9092 <connecting> [IPv4 ('172.31.254.167', 9092)]>: Connection complete.
+2023-12-01 20:31:11,740:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-01 20:31:22,120:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:22] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:25,138:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:25] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:28,159:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:28] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:31,179:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:31] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:34,197:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:34] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:37,213:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:37] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:40,230:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:40] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:43,248:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:43] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:46,266:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:46] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:49,283:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:49] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:52,300:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:52] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:55,319:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:55] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:31:58,339:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:31:58] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:01,357:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:01] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:04,375:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:04] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:07,392:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:07] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:10,410:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:10] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:13,427:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:13] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:16,446:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:16] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:19,465:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:19] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:22,483:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:22] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:25,502:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:25] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:28,521:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:28] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:31,543:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:31] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:34,561:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:34] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:37,580:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:37] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:40,598:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:40] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:43,615:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:43] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:46,629:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:46] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:49,645:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:49] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:52,663:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:52] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:55,680:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:55] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:32:58,698:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:32:58] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:01,722:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:01] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:04,738:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:04] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:07,843:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:07] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:10,960:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:10] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:14,080:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:14] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:17,163:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:17] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:20,280:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:20] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:23,392:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:23] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:26,511:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:26] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:29,626:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:29] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:32,734:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:32] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:35,839:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:35] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:38,946:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:38] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:42,065:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:42] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:45,178:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:45] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:48,284:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:48] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:51,404:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:51] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:54,527:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:54] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:33:57,647:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:33:57] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:00,688:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:00] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:03,810:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:03] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:06,932:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:06] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:10,051:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:10] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:13,075:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:13] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:16,093:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:16] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:19,110:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:19] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:22,127:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:22] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:25,144:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:25] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:28,162:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:28] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:31,180:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:31] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:34,197:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:34] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:37,215:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:37] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:40,233:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:40] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:43,250:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:43] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:46,268:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:46] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:49,289:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:49] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:52,361:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:52] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:55,478:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:55] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:34:58,576:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:34:58] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:01,695:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:01] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:04,807:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:04] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:07,922:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:07] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:11,037:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:11] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:14,149:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:14] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:17,261:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:17] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:20,380:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:20] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:23,400:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:23] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:26,419:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:26] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:29,443:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:29] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:32,464:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:32] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:35,503:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:35] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:38,608:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:38] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:41,726:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:41] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:44,842:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:44] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:47,957:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:47] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:51,075:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:51] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:54,193:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:54] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:35:57,304:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:35:57] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:00,423:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:00] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:03,540:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:03] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:06,662:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:06] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:09,772:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:09] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:12,893:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:12] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:16,004:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:16] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:19,113:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:19] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:22,201:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:22] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:25,308:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:25] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:28,411:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:28] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:31,530:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:31] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:34,645:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:34] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:35,667:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-01 20:36:35,668:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-01 20:36:37,755:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:37] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:40,864:_log:INFO:127.0.0.1 - - [01/Dec/2023 20:36:40] "GET /data HTTP/1.1" 200 -
+2023-12-01 20:36:46,266:close:INFO:Closing down clientserver connection

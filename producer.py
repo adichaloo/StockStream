@@ -1,11 +1,4 @@
 
-"""
-@Author: Rikesh Chhetri
-@Date: 2021-09-12 
-@Last Modified by: Rikesh Chhetri
-@Last Modified time: 2021-09-12 10:03:30
-@Title : Program Aim perform the Prediction Of Live Stock Data and using kafka sending of these data to consumer. 
-"""
 
 from time import sleep
 from kafka import KafkaProducer

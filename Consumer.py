@@ -1,13 +1,3 @@
-
-"""
-@Author: Rikesh Chhetri
-@Date: 2021-09-12 
-@Last Modified by: Rikesh Chhetri
-@Last Modified time: 2021-09-12 10:03:30
-@Title : Program Aim perform the Prediction of Live Stock Data and Receiving Of Message From
-         Kafka Producer And Processing and THose Data Using Spark And MlLib
-"""
-
 import pandas as pd
 import json
 from kafka import KafkaConsumer
@@ -26,6 +16,7 @@ except Exception as e:
 
 def StockPricePrediction():
     try:
+        resp = []
         for message in Consumer:
             
             res = json.loads(message.value.decode('utf-8'))
@@ -36,6 +27,7 @@ def StockPricePrediction():
             spark_df = spark.createDataFrame(df)
             vectorAssembler = VectorAssembler(inputCols=['Open', 'High', 'Low'], outputCol='features')
             df_vect = vectorAssembler.transform(spark_df)
+            resp.append(df_vect)
             df_vect_features = df_vect.select(['features', 'Close'])
             # predictions = LoadModel.transform(df_vect_features)
             # predictions.select("prediction", "Close", "features").show()
@@ -43,10 +35,8 @@ def StockPricePrediction():
             # close_value = predictions.select('Close').collect()[0].__getitem__('Close')
             # print(message.key)
             # date_time = message.key.decode('utf-8')
-    
+
     except Exception as e:
         logger.error(e)
 
-
-
-StockPricePrediction()
+# StockPricePrediction()
