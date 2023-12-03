@@ -30,12 +30,8 @@ spark = (SparkSession.builder
          .config("spark.executor.memory", "1G")
          .getOrCreate())
 
-agg_data_1 = []
-agg_data_2 = []
-agg_data_3 = []
-agg_data_4 = []
-
 stock_data = {}
+time_log = []
 
 
 schema = StructType([
@@ -93,6 +89,7 @@ def data():
             print(f"Test done : {df_dict[stock]}")
         print("Test skip")
         stock_count = 0
+        table_data = {}
         for stock in stock_data:
             stock_count += len(stock_data[stock])
             print(f"#### DATA FRAMEEE - {stock} ######")
@@ -116,7 +113,13 @@ def data():
 
             print(f"{stock} lowest daily return")
             df_dict[stock]= df_dict[stock].withColumn("Return", log(df_dict[stock]["close"] / df_dict[stock]["open"]) * 100)
-            df_dict[stock].select('Return').describe().show()
+    
+            df_dict[stock].select('Return').describe().show() # Just for log to compare
+            summary_df = df_dict[stock].select('Return').describe().toPandas()
+            table_data[stock] = {
+                "table": summary_df.to_html(classes='table table-bordered table-striped', index=False)
+            }
+
             print("####################")
             # print(df_dict[stock].show())
 
@@ -125,9 +128,10 @@ def data():
         final_record = end_time -start_time_new
         # print(f"Time for {len(agg_data)} record {one_record}")
         print(f"Time for all stock records - {stock_count} one hit {one_record}")
+        time_log.append({"record_count": stock_count, "processing_time": one_record})
 
         print("Time for multiple record".format(final_record))
-        return render_template('output.html',one_record=one_record,final_record=stock_count)
+        return render_template('output.html',one_record=one_record,final_record=stock_count, table=table_data, time_table=time_log)
     except Exception as e:
 
         logger.info(e)

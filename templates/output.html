@@ -18,7 +18,42 @@
 
     Time for one record {{one_record}}
     Count {{final_record}}
+
+    <!-- Time_table = {{time_table}} -->
+    <!-- {% if table %} -->
+    {% for stock, data in table.items() %}
+        <h2>{{ stock }}</h2>
+        <div>
+            {% if data["table"] %}
+                {{ data["table"]|safe }}
+            {% else %}
+                <p>No data available</p>
+            {% endif %}
+        </div>
+    {% endfor %}
+        <!-- {% else %}
+            <p>No data available</p>
+    {% endif %} -->
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Record Count</th>
+                <th>Processing Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in time_table %}
+                <tr>
+                    <td>{{ entry['record_count'] }}</td>
+                    <td>{{ entry['processing_time'] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
     {% endblock %}
+
     
 </body>
 </html>

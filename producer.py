@@ -57,8 +57,8 @@ def process_stock(stock):
             messagePublisher(kafkaProducer, key, temp)
             i+=1
             if i%100==0:
-                sleep(1)
-            # sleep(30)
+                sleep(5)
+            sleep(1)
 
 
 if __name__ == "__main__":
