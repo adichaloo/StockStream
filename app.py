@@ -105,7 +105,7 @@ def data():
 
             # df = df.withColumn("daily_return", (df.close - df.open) / df.open)
             df_dict[stock] = df_dict[stock].orderBy(col("daily_return").desc()).limit(5)
-            # What day did the S&P 500 reach it’s highest peak price? What was the peak price?
+            # What day did the stock reach it’s highest peak price? What was the peak price?
             print(f"{stock} Description of data - What day did the stock reach it’s highest peak price? What was the peak price?")
             print(df_dict[stock].orderBy(df_dict[stock]["high"].desc()).head(1)[0][0])  # print date
             print(df_dict[stock].orderBy(df_dict[stock]["high"].desc()).head(1)[0][2])  # print price

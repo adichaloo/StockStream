@@ -4,6 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+            margin: 20px auto; /* Center the table horizontally and add spacing */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
 </head>
 <!--<script>-->
 <!--    setTimeout(function(){-->
@@ -12,31 +48,31 @@
 <!--</script>-->
 
 
+
+
 <body>
     {% block content %}
-    {{response}}
 
-    Time for one record {{one_record}}
-    Count {{final_record}}
-
-    <!-- Time_table = {{time_table}} -->
-    <!-- {% if table %} -->
-    {% for stock, data in table.items() %}
-        <h2>{{ stock }}</h2>
-        <div>
-            {% if data["table"] %}
-                {{ data["table"]|safe }}
-            {% else %}
-                <p>No data available</p>
-            {% endif %}
-        </div>
-    {% endfor %}
-        <!-- {% else %}
-            <p>No data available</p>
-    {% endif %} -->
-
-    <table class="table table-bordered table-striped">
+    <table>
         <thead>
+            <h2 style="text-align: center;">Runtime Analysis</h2>
+            <tr>
+                <th>Time for one record</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>{{one_record}}</td>
+                    <td>{{final_record}}</td>
+                </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+
             <tr>
                 <th>Record Count</th>
                 <th>Processing Time</th>
@@ -51,6 +87,27 @@
             {% endfor %}
         </tbody>
     </table>
+
+    <!-- Time_table = {{time_table}} -->
+    <!-- {% if table %} -->
+
+    <br><br>
+
+    <h2> Realtime Stock Analysis</h2>
+    {% for stock, data in table.items() %}
+        <h2>{{ stock }}</h2>
+        <div>
+            {% if data["table"] %}
+                {{ data["table"]|safe }}
+            {% else %}
+                <p>No data available</p>
+            {% endif %}
+        </div>
+    {% endfor %}
+        <!-- {% else %}
+            <p>No data available</p>
+    {% endif %} -->
+
 
     {% endblock %}
 

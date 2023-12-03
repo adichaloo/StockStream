@@ -3799,3 +3799,257 @@ or in your python installation, that is printing to standard output
 2023-12-03 05:55:43,012:dataGrabber:INFO:Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.
 2023-12-03 05:55:43,059:dataGrabber:INFO:Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.
 2023-12-03 05:55:43,059:dataGrabber:INFO:Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.
+2023-12-03 06:17:08,494:close:INFO:Closing down clientserver connection
+2023-12-03 06:24:54,465:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:24:54,467:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:24:54,468:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:24:54,577:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:24:54,577:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:24:54,578:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:24:54,578:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:24:56,421:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 06:24:56,421:_log:INFO: * Restarting with stat
+2023-12-03 06:24:56,551:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:24:56,552:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:24:56,657:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:24:56,657:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:24:56,715:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:24:56,715:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:24:56,716:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:24:56,825:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:24:56,825:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:24:56,826:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:24:56,826:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:24:58,072:_log:WARNING: * Debugger is active!
+2023-12-03 06:24:58,074:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:24:58,076:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:24:58,079:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 06:24:58,181:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:24:58,181:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:25:04,407:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:04,409:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:25:04,409:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:04,519:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:25:04,519:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:25:04,525:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:04,526:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:04,526:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:25:06,147:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:06,147:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:25:06,147:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:06,254:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:25:06,255:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:25:06,258:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:06,259:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:06,259:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:25:06,738:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:06,738:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:25:06,738:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:06,841:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:25:06,841:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:25:06,844:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:25:06,844:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:25:06,844:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:25:30,751:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:25:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 06:25:35,148:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:25:35] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:25:35,148:close:INFO:Closing down clientserver connection
+2023-12-03 06:25:39,374:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:25:39] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:25:39,374:close:INFO:Closing down clientserver connection
+2023-12-03 06:26:30,978:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:26:30] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:26:30,979:close:INFO:Closing down clientserver connection
+2023-12-03 06:26:43,086:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:26:43] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:26:43,087:close:INFO:Closing down clientserver connection
+2023-12-03 06:26:54,377:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:26:54] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:26:54,377:close:INFO:Closing down clientserver connection
+2023-12-03 06:27:55,941:close:INFO:Closing down clientserver connection
+2023-12-03 06:28:03,843:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:28:03,844:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:28:03,844:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:28:03,951:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:28:03,951:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:28:03,952:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:28:03,952:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:28:05,341:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 06:28:05,341:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:28:05,341:_log:INFO: * Restarting with stat
+2023-12-03 06:28:05,342:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:28:05,447:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:28:05,447:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:28:05,617:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:28:05,617:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:28:05,618:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:28:05,724:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:28:05,724:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:28:05,725:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:28:05,725:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:28:06,970:_log:WARNING: * Debugger is active!
+2023-12-03 06:28:06,970:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:28:06,972:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:28:06,977:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 06:28:07,078:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:28:07,078:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:28:26,583:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:28:26] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:28:26,583:close:INFO:Closing down clientserver connection
+2023-12-03 06:28:28,807:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:28:28] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:28:28,807:close:INFO:Closing down clientserver connection
+2023-12-03 06:30:24,724:_log:INFO: * Detected change in '/Users/adityachaloo/Desktop/StockStream/app.py', reloading
+2023-12-03 06:30:28,334:close:INFO:Closing down clientserver connection
+2023-12-03 06:30:30,263:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:30:30,264:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:30:30,264:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:30:30,371:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:30:30,372:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:30:30,372:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:30:30,373:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:30:31,767:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 06:30:31,768:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:30:31,768:_log:INFO: * Restarting with stat
+2023-12-03 06:30:31,768:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:30:31,874:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:30:31,874:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:30:32,061:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:30:32,061:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:30:32,062:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:30:32,178:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:30:32,178:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:30:32,178:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:30:32,178:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:30:33,421:_log:WARNING: * Debugger is active!
+2023-12-03 06:30:33,421:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:30:33,425:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:30:33,427:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 06:30:33,530:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:30:33,530:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:31:11,321:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:31:11] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:31:11,321:close:INFO:Closing down clientserver connection
+2023-12-03 06:33:09,087:close:INFO:Closing down clientserver connection
+2023-12-03 06:33:10,392:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:33:10,392:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:33:10,393:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:33:10,501:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:33:10,502:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:33:10,502:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:33:10,502:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:33:11,902:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:33:11,902:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 06:33:11,903:_log:INFO: * Restarting with stat
+2023-12-03 06:33:11,903:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:33:12,009:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:33:12,009:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:33:12,208:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:33:12,208:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:33:12,209:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:33:12,314:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:33:12,315:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:33:12,315:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 06:33:12,316:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 06:33:13,562:_log:WARNING: * Debugger is active!
+2023-12-03 06:33:13,565:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 06:33:13,566:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:33:13,568:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 06:33:13,671:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:33:13,671:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:33:23,166:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:33:23] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:33:23,167:close:INFO:Closing down clientserver connection
+2023-12-03 06:35:15,458:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:35:15] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:35:15,458:close:INFO:Closing down clientserver connection
+2023-12-03 06:36:52,776:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:36:52] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:36:52,777:close:INFO:Closing down clientserver connection
+2023-12-03 06:40:06,067:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:40:06] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:40:06,067:close:INFO:Closing down clientserver connection
+2023-12-03 06:41:26,375:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:41:26] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:41:26,375:close:INFO:Closing down clientserver connection
+2023-12-03 06:42:10,149:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:42:10] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:42:10,149:close:INFO:Closing down clientserver connection
+2023-12-03 06:42:46,315:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:42:46] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:42:46,315:close:INFO:Closing down clientserver connection
+2023-12-03 06:43:25,270:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:43:25] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:43:25,270:close:INFO:Closing down clientserver connection
+2023-12-03 06:43:48,520:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:43:48] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:43:48,520:close:INFO:Closing down clientserver connection
+2023-12-03 06:43:51,281:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:43:51] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:43:51,281:close:INFO:Closing down clientserver connection
+2023-12-03 06:45:14,050:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:45:14] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:45:14,050:close:INFO:Closing down clientserver connection
+2023-12-03 06:45:29,721:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:45:29] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:45:29,721:close:INFO:Closing down clientserver connection
+2023-12-03 06:45:32,174:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:45:32] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:45:32,174:close:INFO:Closing down clientserver connection
+2023-12-03 06:45:33,456:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:45:33] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:45:33,457:close:INFO:Closing down clientserver connection
+2023-12-03 06:46:37,924:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:46:37] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:46:37,924:close:INFO:Closing down clientserver connection
+2023-12-03 06:48:07,394:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:48:07] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:48:07,394:close:INFO:Closing down clientserver connection
+2023-12-03 06:49:54,745:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:49:54] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:49:54,746:close:INFO:Closing down clientserver connection
+2023-12-03 06:50:41,292:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:50:41] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:50:41,293:close:INFO:Closing down clientserver connection
+2023-12-03 06:50:43,411:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:50:43] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:50:43,411:close:INFO:Closing down clientserver connection
+2023-12-03 06:50:45,795:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:50:45] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:50:45,795:close:INFO:Closing down clientserver connection
+2023-12-03 06:50:48,558:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:50:48] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:50:48,559:close:INFO:Closing down clientserver connection
+2023-12-03 06:50:50,225:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:50:50] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:50:50,225:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:08,937:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:51:08] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:51:08,937:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:10,567:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:51:10] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:51:10,567:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:11,237:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:51:11] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:51:11,238:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:11,322:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:51:11] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:51:11,323:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:12,966:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:51:12] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:51:12,967:close:INFO:Closing down clientserver connection
+2023-12-03 06:51:24,502:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:51:24,502:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 06:51:24,502:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:51:24,502:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 06:51:24,503:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:51:24,503:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 06:51:24,503:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:51:29,372:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,373:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:51:29,373:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,480:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:51:29,480:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:51:29,485:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,485:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,485:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:51:29,545:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,546:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:51:29,546:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,562:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,562:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 06:51:29,562:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,649:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:51:29,649:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:51:29,653:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,653:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,653:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:51:29,668:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 06:51:29,668:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 06:51:29,673:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 06:51:29,673:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 06:51:29,673:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:52:02,768:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:52:02] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:52:02,768:close:INFO:Closing down clientserver connection
+2023-12-03 06:52:05,847:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:52:05] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:52:05,847:close:INFO:Closing down clientserver connection
+2023-12-03 06:52:08,433:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:52:08] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:52:08,433:close:INFO:Closing down clientserver connection
+2023-12-03 06:52:13,582:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:52:13] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:52:13,583:close:INFO:Closing down clientserver connection
+2023-12-03 06:52:40,405:_log:INFO:127.0.0.1 - - [03/Dec/2023 06:52:40] "GET /data HTTP/1.1" 200 -
+2023-12-03 06:52:40,406:close:INFO:Closing down clientserver connection
+2023-12-03 06:54:31,330:close:INFO:Closing down clientserver connection
+2023-12-03 06:54:35,798:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:54:35,798:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 06:54:35,798:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:54:35,799:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 06:54:35,799:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:54:35,799:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 06:54:35,799:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 06:54:35,799:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
