@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script>
-    setTimeout(function(){
-    location.reload();
-}, 3000); // 3000 milliseconds = 3 seconds
-</script>
+<!--<script>-->
+<!--    setTimeout(function(){-->
+<!--    location.reload();-->
+<!--}, 3000); // 3000 milliseconds = 3 seconds-->
+<!--</script>-->
 
 
 <body>
     {% block content %}
     {{response}}
+
+    Time for one record {{one_record}}
+    Count {{final_record}}
     {% endblock %}
     
 </body>
