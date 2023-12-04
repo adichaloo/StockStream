@@ -9185,3 +9185,421 @@ py4j.protocol.Py4JNetworkError: Error while sending or receiving
 2023-12-03 20:42:41,224:close:INFO:Closing down clientserver connection
 2023-12-03 20:42:41,291:_log:INFO:127.0.0.1 - - [03/Dec/2023 20:42:41] "GET /plot HTTP/1.1" 200 -
 2023-12-03 20:42:44,266:close:INFO:Closing down clientserver connection
+2023-12-03 21:08:29,986:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:08:29,986:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:08:29,986:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:08:29,994:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:08:29,994:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:08:29,994:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:08:29,995:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:08:29,995:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:08:29,995:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:08:30,105:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:08:30,105:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:08:30,105:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:08:30,106:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:08:30,107:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:08:30,107:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:08:30,112:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: connecting to 10.0.0.114:9092 [('10.0.0.114', 9092) IPv4]
+2023-12-03 21:08:30,112:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: connecting to 10.0.0.114:9092 [('10.0.0.114', 9092) IPv4]
+2023-12-03 21:08:30,112:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: connecting to 10.0.0.114:9092 [('10.0.0.114', 9092) IPv4]
+2023-12-03 21:08:30,113:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: Connection complete.
+2023-12-03 21:08:30,113:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: Connection complete.
+2023-12-03 21:08:30,113:connect:INFO:<BrokerConnection node_id=0 host=10.0.0.114:9092 <connecting> [IPv4 ('10.0.0.114', 9092)]>: Connection complete.
+2023-12-03 21:08:30,113:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:08:30,113:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:08:30,114:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:10:20,560:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,562:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:20,567:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,568:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:20,572:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,572:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,572:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,572:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,572:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:20,584:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,589:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,602:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,604:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,604:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,604:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,604:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,604:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,604:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:20,604:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,649:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,654:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:20,654:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,654:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:20,654:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,654:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:20,654:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,654:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,654:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:10:20,655:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,655:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:20,655:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:10:20,655:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:20,655:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:10:49,799:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,800:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,800:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:49,799:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,801:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:49,805:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:10:49,807:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,807:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,818:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,819:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,825:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,825:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,842:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,847:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,847:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,847:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,847:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:10:49,847:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,853:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,859:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,872:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,878:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:49,897:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:49,897:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:10:49,897:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,897:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,897:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:10:49,897:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,897:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,897:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:10:49,898:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:10:49,898:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:10:49,898:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:11:46,833:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,835:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:11:46,837:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,837:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:11:46,840:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,840:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:11:46,840:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,840:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,847:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,847:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,859:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,859:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,859:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,870:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,870:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,882:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:11:46,883:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,883:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,883:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,883:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,901:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,909:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:11:46,932:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:11:46,932:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:11:46,932:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,933:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,933:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,933:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,933:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:11:46,933:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:11:46,933:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:11:46,933:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:11:46,933:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:15:03,802:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,804:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:15:03,804:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,805:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:15:03,804:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,805:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:15:03,805:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,805:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,817:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,817:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,840:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,853:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,854:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,854:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,854:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:15:03,854:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,854:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,854:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,854:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,854:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,860:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,904:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:15:03,904:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:15:03,904:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:15:03,904:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,904:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,904:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,904:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:15:03,904:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,905:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:15:03,905:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:15:03,905:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:15:03,905:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:17:03,548:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,561:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:17:03,549:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,562:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:17:03,562:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,562:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,579:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,592:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,592:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,592:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,593:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:17:03,597:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,597:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,598:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,598:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,598:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,598:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,611:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,635:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:17:03,647:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:17:03,647:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:17:03,647:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,647:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,647:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,647:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:17:03,647:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,647:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,666:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,679:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:17:03,679:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:17:03,680:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:17:03,680:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:17:03,680:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:38:37,513:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,516:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,522:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,523:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:38:37,523:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:38:37,523:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:38:37,524:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,524:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,524:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,524:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,536:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,555:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,572:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,572:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,572:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:38:37,572:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,572:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,572:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,585:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,585:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,615:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,622:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:38:37,622:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:38:37,622:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:38:37,622:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,622:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,622:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:38:37,622:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,622:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,622:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:38:37,622:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:38:37,623:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:38:37,623:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:16,311:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,312:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,312:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:16,312:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:16,313:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,313:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,313:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,313:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,362:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,362:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,362:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,362:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,375:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,381:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,412:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:16,412:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:16,412:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,412:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,412:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,412:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,412:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:16,412:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:16,477:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,477:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:16,478:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,478:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,527:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:16,527:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,527:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,577:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:16,577:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:16,577:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:16,577:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:44,885:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,885:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,888:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:44,889:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,889:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:44,888:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:44,890:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,891:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,898:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,904:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,916:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,916:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,916:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,916:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,917:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:44,917:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,917:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,917:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,917:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,929:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,948:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,967:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:44,967:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:44,967:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:44,967:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,967:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,967:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,967:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:44,967:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,967:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:44,967:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:44,968:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:44,970:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:55,927:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,928:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,928:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,929:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:55,929:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:55,928:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:39:55,931:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:55,931:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:55,940:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:55,941:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:55,947:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:55,950:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,950:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:55,961:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:55,961:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,961:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:55,961:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:39:55,974:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:55,999:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-03 21:39:56,000:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:56,000:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:56,000:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:56,011:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:56,011:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:56,011:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-03 21:39:56,011:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:56,011:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:56,012:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:56,012:connect:ERROR:Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-03 21:39:56,012:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:56,012:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-03 21:39:56,012:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:39:56,012:kafkaProducerConnect:INFO:NoBrokersAvailable
+2023-12-03 21:44:38,867:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:38,875:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:44:38,868:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:38,878:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:44:38,868:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:38,879:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:44:38,881:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:38,888:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:38,890:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:39,005:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:44:39,005:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:44:39,005:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:44:39,006:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:44:39,006:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:44:39,006:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:44:39,010:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:39,011:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:39,011:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:44:39,012:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:39,013:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:39,013:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:44:39,013:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:44:39,014:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:44:39,014:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:44:44,390:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:44:44,391:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 21:44:44,391:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:44:44,391:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 21:44:44,391:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:44:44,391:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:44:44,391:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 21:44:44,391:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:15,579:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:15,580:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:45:15,581:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:15,686:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:45:15,686:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:45:15,687:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 21:45:15,687:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 21:45:17,251:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 21:45:17,251:_log:INFO: * Restarting with stat
+2023-12-03 21:45:17,252:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 21:45:17,253:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:17,355:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:17,355:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:17,832:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:17,832:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:45:17,833:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:17,940:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:45:17,940:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:45:17,941:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 21:45:17,941:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 21:45:19,446:_log:WARNING: * Debugger is active!
+2023-12-03 21:45:19,449:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 21:45:19,452:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:19,455:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 21:45:19,555:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:19,555:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:27,738:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,738:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,738:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:45:27,739:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:45:27,739:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,740:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,745:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,745:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 21:45:27,745:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,847:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:45:27,847:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:45:27,847:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:45:27,847:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:45:27,850:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,851:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,851:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:27,853:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 21:45:27,853:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 21:45:27,854:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,854:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,855:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:27,857:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 21:45:27,857:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 21:45:27,857:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:40,319:_log:INFO:127.0.0.1 - - [03/Dec/2023 21:45:40] "GET /data HTTP/1.1" 200 -
+2023-12-03 21:45:40,320:close:INFO:Closing down clientserver connection
+2023-12-03 21:45:40,399:_log:INFO:127.0.0.1 - - [03/Dec/2023 21:45:40] "GET /plot HTTP/1.1" 200 -
+2023-12-03 21:45:44,397:_log:INFO:127.0.0.1 - - [03/Dec/2023 21:45:44] "GET /data HTTP/1.1" 200 -
+2023-12-03 21:45:44,397:close:INFO:Closing down clientserver connection
+2023-12-03 21:45:44,486:_log:INFO:127.0.0.1 - - [03/Dec/2023 21:45:44] "GET /plot HTTP/1.1" 200 -
+2023-12-03 21:45:47,438:close:INFO:Closing down clientserver connection
+2023-12-03 21:45:50,254:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:45:50,258:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 21:45:50,258:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:45:50,258:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 21:45:50,258:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:50,258:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-03 21:45:50,258:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 21:45:50,258:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
