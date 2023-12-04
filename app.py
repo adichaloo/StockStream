@@ -159,9 +159,9 @@ def data():
         one_record = processing_end_time-processing_start_time
         print(f"Time for the aggregated records - {stock_count} to complete all the tasks is {one_record}")
 
-        # # Kafka latency
-        # average_latency = sum(latency_list) / len(latency_list)
-        # print(f"Approx Average Latency for Batch of {len(latency_list)} messages: {average_latency} seconds")
+        # Kafka latency
+        average_latency = sum(latency_list) / len(latency_list)
+        print(f"Approx Average Latency for Batch of {len(latency_list)} messages: {average_latency} seconds")
 
         time_log.append({"record_count": stock_count, "processing_time": one_record})
 
