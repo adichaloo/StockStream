@@ -15,20 +15,17 @@ load_dotenv('.env')
 
 def dataGrabber(ticker='TCS'):
     try:
-        # keys = os.getenv("API_KEY")
-        # keys = "TTT3XUSOJC2M3I73"
         keys = "Q7Q48LRFF2HR71NT"
         time = TimeSeries(key=keys, output_format='json')
-        # data, metadata = time.get_intraday(symbol=ticker, interval='5min', outputsize='full')
         filename = f"{ticker}_data.json"
         try:
             with open(filename, 'r') as file:
                 data = json.load(file)
-            print(f"Data loaded from {filename}")
+            print(f"Data loaded from {filename}") # To avoid excessive api calls as there is a certain limit we are loading data on our system if the jsons are not available on the system.
             return data
         except FileNotFoundError:
             pass
-
+        # API call to alphavantage for the stock data
         data, metadata = time.get_daily(symbol=ticker, outputsize='full')
         # Save the data to a JSON file
         with open(filename, 'w') as file:
@@ -42,13 +39,13 @@ def dataGrabber(ticker='TCS'):
         sys.exit(1)
 
 
-
+# Publishing the data in json to the topic stock_data
 def messagePublisher(producerKey, key, data_key):
     keyBytes = bytes(key, encoding='utf-8')
     producerKey.send("stock_data", json.dumps(data_key).encode('utf-8'), keyBytes)
     print(f"Message Published! {data_key}")
 
-
+#Establish connection with the broker
 def kafkaProducerConnect():
     try:
         producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
@@ -58,17 +55,16 @@ def kafkaProducerConnect():
 
 
 def process_stock(stock):
-    data = dataGrabber(stock)
+    data = dataGrabber(stock) # Get the data from Alphavantage
     print(f"Data for {stock}: {len(data)}")
     if len(data) > 0:
         i=0
-        kafkaProducer = kafkaProducerConnect()
+        kafkaProducer = kafkaProducerConnect() # Establish connection with the broker
         for key in sorted(data):
 
             temp = data[key]
             temp.update({"stock": stock})
-            # messagePublisher(kafkaProducer, key, data[key])
-            messagePublisher(kafkaProducer, key, temp)
+            messagePublisher(kafkaProducer, key, temp) # Push data to a topic
             i+=1
             if i%100==0:
                 sleep(2)
@@ -76,14 +72,13 @@ def process_stock(stock):
 
 
 if __name__ == "__main__":
-    stock_list = ['IBM', 'INFY', 'TCS']
-    max_threads = len(stock_list)  # Adjust this number based on your preference
+    stock_list = ['IBM', 'INFY', 'TCS'] # Can add more tickers and perform the tasks
+    max_threads = len(stock_list)
 
     # Use ThreadPoolExecutor to manage the threads
     with ThreadPoolExecutor(max_threads) as executor:
         # Submit tasks for each stock
         futures = [executor.submit(process_stock, stock) for stock in stock_list]
-
         # Wait for all tasks to complete
         for future in futures:
             future.result()

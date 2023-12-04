@@ -51,8 +51,7 @@
 
 
 <body>
-    <br>
-    <h1 style="text-align: center;margin-top: 5px;">StockStream</h1>
+    <h1 style="text-align: center;">StockStream</h1>
    
     {% block content %}
     <div>
@@ -64,7 +63,7 @@
         <thead>
             <h2 style="text-align: center;">Runtime Analysis</h2>
             <tr>
-                <th>Time for one record</th>
+                <th>Time for completion of tasks </th>
                 <th>Count</th>
             </tr>
         </thead>
@@ -95,9 +94,6 @@
         </tbody>
     </table>
 
-    <!-- Time_table = {{time_table}} -->
-    <!-- {% if table %} -->
-
     <br><br>
 
     <h2> Realtime Stock Analysis</h2>
@@ -111,9 +107,6 @@
             {% endif %}
         </div>
     {% endfor %}
-        <!-- {% else %}
-            <p>No data available</p>
-    {% endif %} -->
 
 
     {% endblock %}
