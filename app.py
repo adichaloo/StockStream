@@ -38,6 +38,7 @@ spark = (SparkSession.builder
 
 stock_data = {}
 time_log = []
+latency_list=[]
 
 
 schema = StructType([
@@ -51,14 +52,19 @@ schema = StructType([
 ])
 
 plot_data_IBM = []
-plot_data_TCS = []
+plot_data_GE = []
 plot_data_INFY = []
 
 # Aggregation of all the stock data contiuously 
 def kafka_consumer():
     for message in Consumer:
+        received_timestamp = time.time()
         res = json.loads(message.value.decode('utf-8')) # Loading the stock data from the topic
-        dlist = list(res.values())
+        data = res["data"]
+        producer_timestamp = res["timestamp"]
+        latency = (received_timestamp - producer_timestamp)*1000
+        latency_list.append(latency)
+        dlist = list(data.values())
         row_values = {
             # 'timestamp': timestamp,
             'open': float(dlist[0]),
@@ -72,8 +78,8 @@ def kafka_consumer():
 
         if str(dlist[5]) == "IBM":    
             plot_data_IBM.append(float(dlist[3]))
-        elif str(dlist[5]) == "TCS":
-            plot_data_TCS.append(float(dlist[3]))
+        elif str(dlist[5]) == "GE":
+            plot_data_GE.append(float(dlist[3]))
         elif str(dlist[5]) == "INFY":
             plot_data_INFY.append(float(dlist[3]))
 
@@ -98,7 +104,7 @@ def plot():
     # Create a Matplotlib plot
     fig, ax = plt.subplots()
     ax.plot(plot_data_IBM, label='IBM', color='red')
-    ax.plot(plot_data_TCS, label='TCS', color='green')
+    ax.plot(plot_data_GE, label='GE', color='green')
     ax.plot(plot_data_INFY, label='INFY', color='blue')
 
 
@@ -152,6 +158,11 @@ def data():
         processing_end_time = time.time()
         one_record = processing_end_time-processing_start_time
         print(f"Time for the aggregated records - {stock_count} to complete all the tasks is {one_record}")
+
+        # # Kafka latency
+        # average_latency = sum(latency_list) / len(latency_list)
+        # print(f"Approx Average Latency for Batch of {len(latency_list)} messages: {average_latency} seconds")
+
         time_log.append({"record_count": stock_count, "processing_time": one_record})
 
         return render_template('output.html',one_record=one_record,final_record=stock_count, table=table_data, time_table=time_log)

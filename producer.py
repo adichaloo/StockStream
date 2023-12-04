@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 import sys
 import os
+import time
 from dotenv import load_dotenv
 
 load_dotenv('.env')
@@ -41,8 +42,10 @@ def dataGrabber(ticker='TCS'):
 
 # Publishing the data in json to the topic stock_data
 def messagePublisher(producerKey, key, data_key):
+    timestamp = time.time()
     keyBytes = bytes(key, encoding='utf-8')
-    producerKey.send("stock_data", json.dumps(data_key).encode('utf-8'), keyBytes)
+    message = {"data": data_key, "timestamp": timestamp}
+    producerKey.send("stock_data", json.dumps(message).encode('utf-8'), keyBytes)
     print(f"Message Published! {data_key}")
 
 #Establish connection with the broker
@@ -67,12 +70,12 @@ def process_stock(stock):
             messagePublisher(kafkaProducer, key, temp) # Push data to a topic
             i+=1
             if i%100==0:
-                sleep(2)
+                sleep(3)
             # sleep(1)
 
 
 if __name__ == "__main__":
-    stock_list = ['IBM', 'INFY', 'TCS'] # Can add more tickers and perform the tasks
+    stock_list = ['IBM', 'INFY', 'GE'] # Can add more tickers and perform the tasks
     max_threads = len(stock_list)
 
     # Use ThreadPoolExecutor to manage the threads
