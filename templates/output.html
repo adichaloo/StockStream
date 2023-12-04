@@ -41,17 +41,24 @@
         }
     </style>
 </head>
-<!--<script>-->
-<!--    setTimeout(function(){-->
-<!--    location.reload();-->
-<!--}, 3000); // 3000 milliseconds = 3 seconds-->
-<!--</script>-->
+<script>
+   setTimeout(function(){
+    location.reload();
+}, 3000); // 3000 milliseconds = 3 seconds-->
+</script>
 
 
 
 
 <body>
+    <br>
+    <h1 style="text-align: center;margin-top: 5px;">StockStream</h1>
+   
     {% block content %}
+    <div>
+        <img src="{{ url_for('plot') }}" alt="Matplotlib Plot">   
+    </div>
+    
 
     <table>
         <thead>
@@ -111,6 +118,8 @@
 
     {% endblock %}
 
-    
+     
+
+
 </body>
 </html>

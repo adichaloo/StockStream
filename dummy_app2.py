@@ -213,7 +213,7 @@ if __name__ == ("__main__"):
         # Wait for all tasks to complete
         # for future in futures:
         #     future.result()
-        socketio.run(app, debug=True, port=8080)
+        socketio.run(app, debug=True, port=8090)
 
     # app.run(debug=True, port=8080)
 

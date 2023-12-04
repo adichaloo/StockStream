@@ -20,13 +20,27 @@ def dataGrabber(ticker='TCS'):
         keys = "Q7Q48LRFF2HR71NT"
         time = TimeSeries(key=keys, output_format='json')
         # data, metadata = time.get_intraday(symbol=ticker, interval='5min', outputsize='full')
+        filename = f"{ticker}_data.json"
+        try:
+            with open(filename, 'r') as file:
+                data = json.load(file)
+            print(f"Data loaded from {filename}")
+            return data
+        except FileNotFoundError:
+            pass
+
         data, metadata = time.get_daily(symbol=ticker, outputsize='full')
-        # prin4t("producer data", data)
+        # Save the data to a JSON file
+        with open(filename, 'w') as file:
+            json.dump(data, file)
+            print(f"Data saved to {filename}")
+
         return data
     except Exception as e:
         print(f"error: {e}")
         logger.info(e)
         sys.exit(1)
+
 
 
 def messagePublisher(producerKey, key, data_key):
