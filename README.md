@@ -10,11 +10,11 @@ Live StockMarket Analysis
     * cd kafka_2.12-3.6.0
 
       
-  * Run Kafka and Zookeeper in the kafka_2.12-3.6.0 folder [Run the 2 commands on separate terminals]
+  * Run Kafka and Zookeeper in the kafka_2.12-3.6.0 folder [Run the 2 commands on separate terminals. Make sure you are in kafka/kafka_2.12-3.6.0 directory]
     * Run Zookeeper : bin/zookeeper-server-start.sh config/zookeeper.properties
     * Run kafka server: bin/kafka-server-start.sh config/server.properties
   
-  * Now start the applications by running the commands [Make sure the Zookeeper and kafka are running]
+  * Now start the applications by running the commands [Make sure the Zookeeper and kafka are running. Run from StockStream directory]
     * cd StockStream 
     * Install dependencies: pip install -r requirements.txt
     * On one terminal run the flask application: python app.py
