@@ -137,7 +137,7 @@ def data():
 
             # Highest average daily returns
             df_dict[stock] = df_dict[stock].withColumn("daily_return", ((df_dict[stock].close - df_dict[stock].open) / df_dict[stock].open)*100)
-            df_dict[stock] = df_dict[stock].orderBy(col("daily_return").desc()).limit(5)
+            df_dict[stock] = df_dict[stock].orderBy(col("daily_return").desc())
 
             # What day did the stock reach it’s highest peak price? What was the peak price?
             print(f"{stock} Description of data - What day did the stock reach it’s highest peak price? What was the peak price?")

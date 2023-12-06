@@ -9603,3 +9603,1730 @@ py4j.protocol.Py4JNetworkError: Error while sending or receiving
 2023-12-03 21:45:50,258:close:INFO:Closing the Kafka producer with 0 secs timeout.
 2023-12-03 21:45:50,258:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
 2023-12-03 21:45:50,258:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-03 23:47:07,614:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:07,626:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 23:47:07,626:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:07,674:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:07,674:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 23:47:07,675:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:07,745:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 23:47:07,745:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 23:47:07,749:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:07,750:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:07,751:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:47:07,781:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 23:47:07,781:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 23:47:07,783:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:07,784:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:07,784:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:47:08,535:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:08,535:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 23:47:08,535:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:08,643:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 23:47:08,643:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 23:47:08,646:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:08,647:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:08,647:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:47:17,776:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:17,776:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 23:47:17,777:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:17,884:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 23:47:17,884:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 23:47:17,884:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 23:47:17,884:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 23:47:19,488:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-03 23:47:19,488:_log:INFO: * Restarting with stat
+2023-12-03 23:47:19,492:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 23:47:19,492:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:19,593:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:19,593:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:47:20,077:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:20,077:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-03 23:47:20,078:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:20,186:check_version:INFO:Broker version identified as 2.5.0
+2023-12-03 23:47:20,186:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-03 23:47:20,186:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-03 23:47:20,186:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-03 23:47:21,611:_log:WARNING: * Debugger is active!
+2023-12-03 23:47:21,615:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-03 23:47:21,616:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-03 23:47:21,619:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-03 23:47:21,722:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-03 23:47:21,722:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:47:39,975:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:39] "GET / HTTP/1.1" 200 -
+2023-12-03 23:47:46,347:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:46] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:47:46,347:close:INFO:Closing down clientserver connection
+2023-12-03 23:47:46,511:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:46] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:47:46,531:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 23:47:50,347:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:50] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:47:50,347:close:INFO:Closing down clientserver connection
+2023-12-03 23:47:50,455:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:50] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:47:54,235:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:54] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:47:54,235:close:INFO:Closing down clientserver connection
+2023-12-03 23:47:54,329:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:54] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:47:58,068:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:58] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:47:58,068:close:INFO:Closing down clientserver connection
+2023-12-03 23:47:58,159:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:47:58] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:01,861:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:01] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:01,862:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:01,932:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:01] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:05,604:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:05] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:05,604:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:05,687:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:05] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:09,346:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:09] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:09,346:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:09,439:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:09] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:13,052:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:13] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:13,053:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:13,136:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:13] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:16,755:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:16] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:16,755:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:16,854:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:16] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:20,551:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:20] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:20,551:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:20,623:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:20] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:24,672:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:24] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:24,673:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:24,757:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:24] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:28,642:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:28] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:28,642:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:28,709:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:28] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:32,668:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:32] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:32,668:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:32,749:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:32] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:36,717:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:36] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:36,717:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:36,787:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:36] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:40,658:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:40] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:40,658:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:40,729:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:40] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:44,644:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:44] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:44,644:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:44,713:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:44] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:48,677:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:48] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:48,677:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:48,749:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:48] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:52,687:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:52] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:52,687:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:52,766:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:52] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:48:56,649:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:56] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:48:56,649:close:INFO:Closing down clientserver connection
+2023-12-03 23:48:56,719:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:48:56] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:00,682:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:00] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:00,683:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:00,749:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:00] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:04,665:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:04] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:04,665:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:04,735:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:04] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:08,662:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:08] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:08,662:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:08,731:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:08] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:12,669:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:12] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:12,670:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:12,751:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:12] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:16,670:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:16] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:16,670:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:16,741:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:16] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:20,641:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:20] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:20,641:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:20,713:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:20] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:24,674:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:24] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:24,674:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:24,780:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:24] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:28,655:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:28] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:28,655:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:28,729:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:28] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:32,627:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:32] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:32,628:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:32,694:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:32] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:36,653:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:36] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:36,653:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:36,743:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:36] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:40,675:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:40] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:40,676:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:40,746:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:40] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:44,657:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:44] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:44,657:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:44,728:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:44] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:48,618:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:48] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:48,618:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:48,686:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:48] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:52,683:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:52] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:52,684:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:52,756:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:52] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:49:56,642:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:56] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:49:56,642:close:INFO:Closing down clientserver connection
+2023-12-03 23:49:56,716:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:49:56] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:00,659:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:00] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:00,659:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:00,729:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:00] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:04,664:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:04] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:04,664:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:04,734:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:04] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:08,630:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:08] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:08,630:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:08,709:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:08] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:10,235:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:50:10,565:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:50:10,565:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-03 23:50:12,676:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:12] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:12,677:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:12,748:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:12] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:16,691:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:16] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:16,693:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:16,777:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:16] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:20,700:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:20] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:20,700:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:20,791:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:20] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:24,638:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:24] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:24,638:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:24,710:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:24] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:28,636:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:28] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:28,636:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:28,722:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:28] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:32,639:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:32] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:32,639:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:32,726:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:32] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:36,629:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:36] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:36,629:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:36,708:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:36] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:40,655:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:40] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:40,655:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:40,726:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:40] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:44,640:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:44] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:44,640:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:44,714:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:44] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:48,657:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:48] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:48,657:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:48,743:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:48] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:52,601:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:52] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:52,601:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:52,694:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:52] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:50:56,647:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:56] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:50:56,648:close:INFO:Closing down clientserver connection
+2023-12-03 23:50:56,725:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:50:56] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:00,623:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:00] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:00,623:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:00,711:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:00] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:04,669:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:04] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:04,669:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:04,746:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:04] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:08,620:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:08] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:08,620:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:08,693:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:08] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:12,643:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:12] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:12,644:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:12,725:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:12] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:16,633:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:16] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:16,633:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:16,714:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:16] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:20,625:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:20] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:20,625:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:20,698:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:20] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:51:24,610:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:24] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:51:24,611:close:INFO:Closing down clientserver connection
+2023-12-03 23:51:24,691:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:51:24] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:55:09,794:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:55:09] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:55:09,795:close:INFO:Closing down clientserver connection
+2023-12-03 23:55:09,875:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:55:09] "GET /plot HTTP/1.1" 200 -
+2023-12-03 23:55:13,506:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:55:13] "GET /data HTTP/1.1" 200 -
+2023-12-03 23:55:13,506:close:INFO:Closing down clientserver connection
+2023-12-03 23:55:13,586:_log:INFO:127.0.0.1 - - [03/Dec/2023 23:55:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:17,807:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:17,808:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:17,901:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:22,013:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:22] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:22,014:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:22,098:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:22] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:25,753:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:25,753:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:25,824:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:29,722:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:29,722:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:29,797:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:33,725:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:33,725:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:33,808:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:37,722:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:37,722:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:37,796:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:41,774:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:41,774:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:41,848:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:45,705:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:45,705:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:45,787:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:49,718:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:49,718:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:49,794:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:53,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:53,702:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:53,777:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:01:57,713:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:01:57,713:close:INFO:Closing down clientserver connection
+2023-12-04 00:01:57,791:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:01:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:01,719:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:01,720:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:01,794:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:05,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:05,701:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:05,778:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:09,690:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:09,690:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:09,764:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:13,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:13,663:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:13,735:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:17,709:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:17,710:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:17,789:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:21,709:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:21,709:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:21,783:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:25,719:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:25,719:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:25,794:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:29,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:29,701:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:29,779:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:33,746:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:33,746:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:33,821:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:37,702:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:37,702:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:37,782:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:41,703:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:41,703:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:41,804:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:45,755:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:45,755:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:45,830:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:49,744:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:49,744:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:49,815:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:53,735:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:53,736:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:53,804:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:02:57,674:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:02:57,674:close:INFO:Closing down clientserver connection
+2023-12-04 00:02:57,749:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:02:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:01,681:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:01,681:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:01,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:05,706:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:05,707:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:05,785:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:09,691:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:09,692:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:09,763:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:13,684:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:13,684:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:13,768:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:17,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:17,677:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:17,790:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:21,690:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:21,690:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:21,782:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:25,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:25,687:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:25,758:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:29,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:29,701:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:29,802:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:33,680:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:33,680:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:33,753:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:37,694:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:37,695:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:37,778:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:41,690:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:41,690:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:41,775:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:45,691:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:45,691:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:45,779:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:49,673:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:49,673:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:49,766:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:53,676:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:53,676:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:53,758:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:03:57,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:03:57,660:close:INFO:Closing down clientserver connection
+2023-12-04 00:03:57,789:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:03:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:01,696:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:01,697:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:01,770:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:05,670:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:05,670:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:05,741:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:09,673:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:09,673:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:09,761:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:13,722:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:13,722:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:13,791:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:17,674:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:17,674:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:17,753:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:21,676:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:21,676:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:21,752:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:25,707:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:25,707:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:25,778:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:29,688:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:29,688:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:29,759:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:33,684:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:33,684:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:33,792:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:37,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:37,655:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:37,742:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:41,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:41,661:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:41,749:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:45,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:45,663:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:45,792:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:49,682:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:49,683:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:49,757:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:53,676:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:53,676:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:53,746:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:04:57,654:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:04:57,654:close:INFO:Closing down clientserver connection
+2023-12-04 00:04:57,730:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:04:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:01,691:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:01,691:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:01,766:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:05,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:05,671:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:05,754:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:09,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:09,662:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:09,740:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:13,713:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:13,714:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:13,793:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:17,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:17,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:17,749:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:21,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:21,671:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:21,743:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:25,656:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:25,656:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:25,743:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:29,679:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:29,679:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:29,752:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:33,673:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:33,673:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:33,748:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:37,712:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:37,712:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:37,787:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:41,683:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:41,683:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:41,763:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:45,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:45,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:45,747:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:49,678:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:49,678:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:49,754:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:53,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:53,668:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:53,750:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:05:57,657:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:05:57,657:close:INFO:Closing down clientserver connection
+2023-12-04 00:05:57,731:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:05:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:01,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:01,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:01,750:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:05,652:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:05,653:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:05,732:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:09,675:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:09,675:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:09,754:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:13,650:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:13,650:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:13,735:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:17,692:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:17,692:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:17,765:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:21,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:21,661:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:21,753:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:25,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:25,672:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:25,752:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:29,686:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:29,686:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:29,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:33,650:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:33,650:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:33,727:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:37,657:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:37,657:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:37,728:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:41,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:41,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:41,744:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:45,665:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:45,666:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:45,748:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:49,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:49,677:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:49,754:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:53,692:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:53,692:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:53,767:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:06:57,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:06:57,661:close:INFO:Closing down clientserver connection
+2023-12-04 00:06:57,762:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:06:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:01,670:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:01,671:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:01,741:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:05,685:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:05,685:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:05,777:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:09,675:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:09,675:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:09,751:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:13,662:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:13,662:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:13,742:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:17,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:17,671:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:17,748:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:21,686:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:21,686:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:21,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:25,653:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:25,653:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:25,748:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:29,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:29,660:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:29,735:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:33,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:33,656:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:33,725:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:37,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:37,671:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:37,759:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:41,657:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:41,658:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:41,730:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:45,680:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:45,681:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:45,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:49,670:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:49,670:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:49,749:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:53,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:53,668:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:53,780:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:07:57,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:07:57,655:close:INFO:Closing down clientserver connection
+2023-12-04 00:07:57,733:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:07:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:01,680:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:01,681:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:01,764:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:05,642:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:05,642:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:05,718:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:09,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:09,645:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:09,714:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:13,690:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:13,690:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:13,768:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:17,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:17,646:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:17,719:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:21,644:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:21,644:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:21,717:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:25,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:25,670:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:25,761:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:29,650:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:29,651:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:29,721:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:33,667:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:33,667:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:33,748:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:37,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:37,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:37,744:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:41,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:41,662:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:41,779:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:45,695:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:45,695:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:45,770:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:49,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:49,660:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:49,731:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:53,651:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:53,651:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:53,745:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:08:57,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:08:57,661:close:INFO:Closing down clientserver connection
+2023-12-04 00:08:57,738:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:08:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:01,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:01,660:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:01,738:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:05,678:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:05,678:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:05,765:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:09,647:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:09,647:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:09,721:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:13,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:13,655:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:13,739:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:17,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:17,662:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:17,736:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:21,658:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:21,659:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:21,738:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:25,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:25,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:25,745:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:29,660:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:29,660:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:29,736:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:33,728:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:33,728:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:33,806:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:37,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:37,655:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:37,730:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:41,651:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:41,651:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:41,743:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:45,665:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:45,666:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:45,737:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:49,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:49,646:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:49,722:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:53,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:53,672:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:53,742:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:09:57,653:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:09:57,654:close:INFO:Closing down clientserver connection
+2023-12-04 00:09:57,724:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:09:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:01,666:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:01,666:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:01,751:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:05,651:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:05,652:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:05,723:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:09,816:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:09,816:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:09,890:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:13,714:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:13,714:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:13,797:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:17,666:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:17,666:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:17,736:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:21,635:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:21,636:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:21,718:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:25,681:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:25,681:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:25,762:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:29,269:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:29,269:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:29,345:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:32,903:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:32] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:32,903:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:32,986:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:32] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:36,714:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:36] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:36,714:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:36,796:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:36] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:40,706:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:40] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:40,706:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:40,789:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:40] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:44,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:44] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:44,668:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:44,745:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:44] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:48,659:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:48] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:48,659:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:48,741:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:48] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:52,703:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:52] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:52,703:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:52,794:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:52] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:10:56,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:56] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:10:56,661:close:INFO:Closing down clientserver connection
+2023-12-04 00:10:56,747:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:10:56] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:00,664:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:00] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:00,664:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:00,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:00] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:04,703:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:04] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:04,703:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:04,775:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:04] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:08,667:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:08] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:08,667:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:08,742:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:08] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:12,675:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:12] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:12,675:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:12,750:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:12] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:16,658:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:16] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:16,658:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:16,732:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:16] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:20,674:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:20] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:20,674:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:20,747:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:20] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:24,664:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:24] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:24,664:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:24,744:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:24] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:28,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:28] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:28,669:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:28,753:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:28] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:32,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:32] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:32,668:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:32,749:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:32] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:36,680:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:36] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:36,680:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:36,756:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:36] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:40,659:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:40] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:40,659:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:40,730:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:40] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:44,667:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:44] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:44,667:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:44,746:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:44] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:48,678:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:48] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:48,678:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:48,797:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:48] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:52,765:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:52] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:52,765:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:52,852:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:52] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:11:56,755:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:56] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:11:56,755:close:INFO:Closing down clientserver connection
+2023-12-04 00:11:56,832:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:11:56] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:37,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:37,687:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:37,761:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:41,628:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:41,628:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:41,706:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:45,559:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:45,559:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:45,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:49,619:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:49,619:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:49,703:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:53,607:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:53,607:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:53,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:14:57,560:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:14:57,560:close:INFO:Closing down clientserver connection
+2023-12-04 00:14:57,649:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:14:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:01,602:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:01,602:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:01,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:05,590:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:05,590:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:05,672:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:09,564:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:09,564:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:09,635:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:13,603:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:13,603:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:13,739:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:17,584:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:17,584:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:17,670:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:21,572:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:21,573:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:21,648:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:25,563:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:25,563:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:25,639:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:29,631:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:29,632:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:29,708:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:33,595:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:33,595:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:33,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:37,622:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:37,622:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:37,695:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:41,581:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:41,581:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:41,653:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:45,551:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:45,553:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:45,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:49,592:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:49,592:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:49,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:53,562:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:53,562:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:53,636:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:15:57,569:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:15:57,569:close:INFO:Closing down clientserver connection
+2023-12-04 00:15:57,643:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:15:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:01,561:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:01,562:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:01,637:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:05,627:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:05,627:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:05,703:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:09,586:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:09,586:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:09,673:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:13,634:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:13,634:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:13,720:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:17,634:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:17,634:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:17,707:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:21,597:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:21,597:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:21,690:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:25,578:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:25,578:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:25,648:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:29,584:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:29,584:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:29,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:33,914:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:33,914:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:34,021:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:34] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:37,638:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:37,638:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:37,725:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:41,581:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:41,582:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:41,672:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:45,602:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:45,602:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:45,679:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:49,657:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:49,658:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:49,768:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:53,602:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:53,602:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:53,673:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:16:57,621:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:16:57,622:close:INFO:Closing down clientserver connection
+2023-12-04 00:16:57,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:16:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:01,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:01,646:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:01,727:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:05,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:05,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:05,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:09,569:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:09,569:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:09,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:13,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:13,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:13,672:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:17,566:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:17,567:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:17,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:21,591:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:21,593:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:21,683:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:25,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:25,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:25,654:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:29,567:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:29,567:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:29,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:33,602:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:33,602:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:33,679:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:37,608:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:37,608:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:37,684:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:41,600:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:41,600:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:41,712:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:45,612:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:45,613:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:45,696:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:49,569:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:49,569:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:49,651:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:53,573:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:53,573:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:53,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:17:57,558:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:17:57,558:close:INFO:Closing down clientserver connection
+2023-12-04 00:17:57,654:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:17:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:01,591:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:01,592:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:01,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:05,557:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:05,558:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:05,636:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:09,557:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:09,557:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:09,649:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:13,565:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:13,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:13,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:17,564:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:17,564:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:17,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:21,577:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:21,577:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:21,669:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:25,595:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:25,596:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:25,674:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:29,558:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:29,558:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:29,638:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:33,584:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:33,585:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:33,656:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:37,548:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:37,548:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:37,622:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:41,583:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:41,583:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:41,681:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:45,599:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:45,599:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:45,679:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:49,592:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:49,592:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:49,662:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:53,575:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:53,575:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:53,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:18:57,597:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:18:57,597:close:INFO:Closing down clientserver connection
+2023-12-04 00:18:57,679:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:18:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:01,594:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:01,595:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:01,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:05,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:05,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:05,643:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:09,571:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:09,571:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:09,683:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:13,588:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:13,588:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:13,662:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:17,587:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:17,587:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:17,658:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:21,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:21,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:21,640:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:25,564:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:25,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:25,636:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:29,587:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:29,587:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:29,675:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:33,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:33,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:33,662:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:37,581:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:37,581:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:37,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:41,561:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:41,561:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:41,630:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:45,597:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:45,597:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:45,712:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:49,614:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:49,614:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:49,701:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:53,571:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:53,572:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:53,642:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:19:57,557:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:19:57,558:close:INFO:Closing down clientserver connection
+2023-12-04 00:19:57,636:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:19:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:01,659:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:01,659:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:01,772:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:05,578:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:05,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:05,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:09,570:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:09,570:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:09,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:13,573:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:13,573:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:13,651:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:17,594:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:17,594:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:17,664:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:21,566:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:21,567:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:21,641:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:25,564:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:25,564:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:25,634:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:29,584:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:29,584:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:29,665:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:33,572:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:33,572:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:33,676:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:37,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:37,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:37,688:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:41,565:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:41,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:41,649:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:45,572:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:45,572:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:45,648:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:49,593:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:49,593:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:49,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:53,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:53,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:53,656:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:20:57,555:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:20:57,555:close:INFO:Closing down clientserver connection
+2023-12-04 00:20:57,632:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:20:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:01,607:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:01,607:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:01,676:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:05,564:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:05,564:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:05,644:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:09,572:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:09,576:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:09,652:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:13,618:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:13,618:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:13,691:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:17,582:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:17,582:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:17,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:21,588:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:21,589:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:21,661:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:25,558:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:25,558:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:25,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:29,609:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:29,609:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:29,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:33,570:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:33,571:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:33,662:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:37,547:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:37,547:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:37,642:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:41,576:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:41,577:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:41,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:45,555:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:45,555:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:45,627:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:49,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:49,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:49,650:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:53,587:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:53,587:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:53,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:21:57,599:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:21:57,599:close:INFO:Closing down clientserver connection
+2023-12-04 00:21:57,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:21:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:01,565:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:01,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:01,642:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:05,561:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:05,561:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:05,635:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:09,574:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:09,574:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:09,647:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:13,565:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:13,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:13,641:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:17,575:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:17,576:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:17,665:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:21,597:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:21,597:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:21,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:25,569:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:25,569:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:25,641:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:29,569:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:29,569:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:29,639:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:33,587:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:33,587:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:33,689:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:37,560:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:37,561:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:37,629:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:41,632:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:41,632:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:41,720:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:45,580:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:45,580:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:45,653:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:49,575:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:49,576:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:49,677:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:53,565:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:53,565:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:53,650:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:22:57,567:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:22:57,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:22:57,654:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:22:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:01,588:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:01,589:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:01,659:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:05,595:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:05,595:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:05,674:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:09,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:09,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:09,667:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:13,614:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:13,614:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:13,691:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:17,588:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:17,588:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:17,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:21,593:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:21,593:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:21,682:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:25,575:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:25,575:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:25,663:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:29,566:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:29,566:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:29,634:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:33,606:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:33,606:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:33,687:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:37,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:37,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:37,638:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:41,571:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:41] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:41,571:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:41,641:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:41] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:45,581:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:45] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:45,581:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:45,671:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:45] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:49,600:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:49] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:49,600:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:49,727:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:49] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:53,606:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:53] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:53,606:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:53,712:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:53] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:23:57,579:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:57] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:23:57,579:close:INFO:Closing down clientserver connection
+2023-12-04 00:23:57,649:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:23:57] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:01,602:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:01] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:01,603:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:01,675:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:01] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:05,551:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:05] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:05,551:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:05,649:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:05] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:09,570:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:09] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:09,570:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:09,655:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:09] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:13,582:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:13] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:13,582:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:13,668:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:13] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:17,566:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:17] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:17,566:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:17,638:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:17] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:21,568:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:21] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:21,568:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:21,645:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:21] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:25,531:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:25] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:25,531:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:25,616:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:25] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:29,563:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:29] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:29,563:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:29,646:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:29] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:33,563:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:33] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:33,563:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:33,633:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:33] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:37,587:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:37] "GET /data HTTP/1.1" 200 -
+2023-12-04 00:24:37,587:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:37,665:_log:INFO:127.0.0.1 - - [04/Dec/2023 00:24:37] "GET /plot HTTP/1.1" 200 -
+2023-12-04 00:24:40,986:close:INFO:Closing down clientserver connection
+2023-12-04 00:24:40,986:data:INFO:[Errno 61] Connection refused
+2023-12-04 00:24:41,924:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:22,204:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:22,205:data:INFO:[Errno 61] Connection refused
+2023-12-04 16:27:28,210:_recv:ERROR:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: socket disconnected
+2023-12-04 16:27:28,210:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2023-12-04 16:27:28,210:_recv:ERROR:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: socket disconnected
+2023-12-04 16:27:28,211:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2023-12-04 16:27:28,210:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,211:_call_backs:ERROR:Fetch to node 0 failed: KafkaConnectionError: socket disconnected
+2023-12-04 16:27:28,211:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,212:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,212:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,212:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,211:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,212:_call_backs:ERROR:Fetch to node 0 failed: KafkaConnectionError: socket disconnected
+2023-12-04 16:27:28,212:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,213:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,213:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,213:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,317:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,317:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,318:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,318:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,318:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,318:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,318:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,318:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,421:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,421:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,421:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,421:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,421:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,421:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,421:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,421:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,576:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,576:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,576:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,576:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,577:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,577:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,577:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,577:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,729:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,730:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,730:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,730:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,731:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:28,732:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,732:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,732:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,937:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,937:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,937:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,938:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:28,988:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:28,989:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:28,989:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:28,990:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:29,143:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:29,144:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:29,144:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:29,144:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:29,247:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:29,247:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:29,247:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:29,248:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:29,606:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:29,606:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:29,606:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:29,606:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:29,658:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:29,658:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:29,659:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:29,659:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:30,018:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:30,019:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:30,019:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:30,019:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:30,066:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:30,067:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:30,067:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:30,067:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:30,786:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:30,787:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:30,787:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:30,787:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:30,886:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:30,886:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:30,886:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:30,887:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:31,553:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:31,554:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:31,554:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:31,554:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:31,707:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:31,707:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:31,707:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:31,707:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:32,680:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:32,680:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:32,680:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:32,681:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:32,732:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:32,733:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:32,733:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:32,733:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:33,756:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:33,756:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:33,756:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:33,757:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:33,808:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:33,808:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:33,809:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:33,809:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:34,933:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:34,933:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:34,933:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:34,933:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:34,984:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:34,985:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:34,985:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:34,985:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:36,108:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:36,108:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:36,109:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:36,109:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:36,164:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:36,164:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:36,164:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:36,165:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:37,081:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:37,081:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:37,082:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:37,082:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:37,392:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:37,393:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:37,393:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:37,393:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:38,051:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:38,052:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:38,052:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:38,052:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:38,622:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:38,622:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:38,622:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:38,622:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:39,228:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:39,228:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:39,229:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:39,229:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:39,644:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:39,645:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:39,645:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:39,645:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:40,410:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:40,411:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:40,411:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:40,411:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:40,616:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:40,616:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:40,616:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:40,616:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:41,329:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:41,330:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:41,331:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:41,331:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:41,587:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:41,588:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:41,588:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:41,588:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:42,249:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:42,249:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:42,249:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:42,249:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:42,556:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:42,556:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:42,557:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:42,557:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:43,273:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:43,274:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:43,274:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:43,274:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:43,425:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:43,426:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:43,426:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:43,426:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:44,295:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:44,296:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2023-12-04 16:27:44,296:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:44,296:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2023-12-04 16:27:44,296:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:44,296:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:44,296:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:44,296:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:45,259:send_command:INFO:Error while sending or receiving.
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+2023-12-04 16:27:45,265:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,259:send_command:INFO:Error while sending or receiving.
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+2023-12-04 16:27:45,268:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,265:send_command:INFO:Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2023-12-04 16:27:45,268:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,268:send_command:INFO:Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/adityachaloo/Documents/python_env1/env/lib/python3.9/site-packages/py4j/clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2023-12-04 16:27:45,269:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,473:connect:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-04 16:27:45,474:connect:ERROR:Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2023-12-04 16:27:45,474:close:INFO:<BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2023-12-04 16:27:45,474:_conn_state_change:WARNING:Node 0 connection failed -- refreshing metadata
+2023-12-04 16:27:45,762:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,843:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,858:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,858:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,885:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,885:close:INFO:Closing down clientserver connection
+2023-12-04 16:27:45,885:close:INFO:Closing down clientserver connection
+2023-12-05 19:47:32,959:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:47:32,960:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:47:32,960:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:47:33,082:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:47:33,082:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:47:33,083:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:47:33,083:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:47:36,203:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-05 19:47:36,203:_log:INFO: * Restarting with stat
+2023-12-05 19:47:36,206:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:47:36,209:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:47:36,315:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:47:36,315:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:47:37,305:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:47:37,305:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:47:37,306:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:47:37,415:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:47:37,415:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:47:37,416:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:47:37,416:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:47:40,122:_log:WARNING: * Debugger is active!
+2023-12-05 19:47:40,127:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:47:40,132:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:47:40,135:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-05 19:47:40,237:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:47:40,237:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:47:43,964:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:47:43,964:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:47:43,964:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:47:43,964:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:47:43,964:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:47:43,964:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:47:43,965:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:47:43,965:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:47:43,965:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:47:44,071:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:47:44,071:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:47:44,072:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:47:44,074:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:47:44,072:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:47:44,075:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:47:44,080:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:47:44,080:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:47:44,080:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:47:44,081:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:47:44,081:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:47:44,081:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:47:44,081:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:47:44,081:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:47:44,081:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:48:40,408:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:40] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:40,408:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:40,573:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:40] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:48:40,581:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-05 19:48:44,262:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:44] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:44,262:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:44,330:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:44] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:48:47,996:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:47] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:47,996:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:48,059:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:48] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:48:51,710:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:51] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:51,710:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:51,774:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:51] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:48:55,356:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:55] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:55,356:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:55,420:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:55] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:48:59,484:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:59] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:48:59,484:close:INFO:Closing down clientserver connection
+2023-12-05 19:48:59,557:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:48:59] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:49:03,440:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:49:03] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:49:03,440:close:INFO:Closing down clientserver connection
+2023-12-05 19:49:03,504:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:49:03] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:49:04,496:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:49:04,496:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:49:04,496:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:49:04,496:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:49:04,497:close:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connected> [IPv4 ('172.30.150.66', 9092)]>: Closing connection. 
+2023-12-05 19:49:04,497:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:49:04,497:close:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connected> [IPv4 ('172.30.150.66', 9092)]>: Closing connection. 
+2023-12-05 19:49:04,497:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:49:06,515:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:02,924:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:50:02,925:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:50:02,925:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:50:03,033:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:50:03,033:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:50:03,033:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:50:03,034:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:50:04,422:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-05 19:50:04,422:_log:INFO: * Restarting with stat
+2023-12-05 19:50:04,424:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:50:04,425:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:50:04,531:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:50:04,531:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:50:04,902:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:50:04,902:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:50:04,902:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:50:05,010:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:50:05,010:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:50:05,010:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:50:05,011:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:50:06,260:_log:WARNING: * Debugger is active!
+2023-12-05 19:50:06,263:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:50:06,265:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:50:06,266:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-05 19:50:06,370:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:50:06,370:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:50:07,349:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:50:07,349:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:50:07,350:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:50:07,350:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:50:07,350:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:50:07,350:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:50:07,351:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:50:07,354:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:50:07,356:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:50:07,454:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:50:07,454:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:50:07,458:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:50:07,459:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:50:07,459:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:50:07,460:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:50:07,460:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:50:07,464:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:50:07,464:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:50:07,467:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:50:07,468:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:50:07,468:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:50:07,473:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:50:07,474:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:50:07,474:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:50:19,305:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:19] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:19,305:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:19,398:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:19] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:23,622:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:23] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:23,622:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:23,719:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:23] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:27,817:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:27] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:27,817:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:27,898:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:27] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:32,000:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:32] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:32,000:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:32,074:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:32] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:36,150:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:36] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:36,150:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:36,230:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:36] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:40,364:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:40] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:40,364:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:40,442:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:40] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:45,026:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:45] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:45,026:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:45,100:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:45] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:49,289:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:49] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:49,289:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:49,363:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:49] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:54,052:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:54] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:50:54,052:close:INFO:Closing down clientserver connection
+2023-12-05 19:50:54,129:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:50:54] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:50:57,062:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:50:57,062:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:50:57,062:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:50:57,063:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:50:57,063:close:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connected> [IPv4 ('172.30.150.66', 9092)]>: Closing connection. 
+2023-12-05 19:50:57,063:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:50:57,063:close:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connected> [IPv4 ('172.30.150.66', 9092)]>: Closing connection. 
+2023-12-05 19:50:57,063:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:50:58,809:data:INFO:An error occurred while calling o1925.collectToPython.
+: org.apache.spark.SparkException: Job 321 cancelled as part of cancellation of all jobs
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.handleJobCancellation(DAGScheduler.scala:2719)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$doCancelAllJobs$2(DAGScheduler.scala:1109)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.java:23)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at org.apache.spark.scheduler.DAGScheduler.doCancelAllJobs(DAGScheduler.scala:1108)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3010)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2493)
+	at org.apache.spark.rdd.RDD.$anonfun$reduce$1(RDD.scala:1136)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:407)
+	at org.apache.spark.rdd.RDD.reduce(RDD.scala:1118)
+	at org.apache.spark.rdd.RDD.$anonfun$takeOrdered$1(RDD.scala:1565)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:407)
+	at org.apache.spark.rdd.RDD.takeOrdered(RDD.scala:1552)
+	at org.apache.spark.sql.execution.TakeOrderedAndProjectExec.executeCollect(limit.scala:291)
+	at org.apache.spark.sql.Dataset.$anonfun$collectToPython$1(Dataset.scala:4160)
+	at org.apache.spark.sql.Dataset.$anonfun$withAction$2(Dataset.scala:4334)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:546)
+	at org.apache.spark.sql.Dataset.$anonfun$withAction$1(Dataset.scala:4332)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4332)
+	at org.apache.spark.sql.Dataset.collectToPython(Dataset.scala:4157)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2023-12-05 19:50:58,811:close:INFO:Closing down clientserver connection
+2023-12-05 19:51:01,619:close:INFO:Closing down clientserver connection
+2023-12-05 19:51:38,351:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:51:38,352:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:51:38,352:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:51:38,460:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:51:38,460:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:51:38,460:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:51:38,460:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:51:39,707:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-05 19:51:39,707:_log:INFO: * Restarting with stat
+2023-12-05 19:51:39,708:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:51:39,709:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:51:39,810:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:51:39,811:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:51:40,214:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:51:40,215:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:51:40,215:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:51:40,321:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:51:40,321:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:51:40,321:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:51:40,321:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:51:41,569:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:51:41,569:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:51:41,570:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:51:41,634:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:51:41,634:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:51:41,635:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:51:41,676:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:51:41,676:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:51:41,683:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:51:41,684:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:51:41,684:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:51:41,706:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:51:41,706:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:51:41,706:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:51:41,741:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:51:41,741:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:51:41,745:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:51:41,745:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:51:41,745:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:51:41,753:_log:WARNING: * Debugger is active!
+2023-12-05 19:51:41,756:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:51:41,757:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-05 19:51:41,758:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:51:41,812:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:51:41,812:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:51:41,815:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:51:41,816:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:51:41,816:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:51:41,863:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:51:41,864:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:51:49,994:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:51:49] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:51:49,994:close:INFO:Closing down clientserver connection
+2023-12-05 19:51:50,081:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:51:50] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:51:55,028:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:51:55] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:51:55,028:close:INFO:Closing down clientserver connection
+2023-12-05 19:51:55,089:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:51:55] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:51:58,028:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:51:58,029:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:51:58,029:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:51:58,029:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:51:58,029:close:INFO:Closing the Kafka producer with 0 secs timeout.
+2023-12-05 19:51:58,029:close:INFO:Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-12-05 19:51:58,029:close:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connected> [IPv4 ('172.30.150.66', 9092)]>: Closing connection. 
+2023-12-05 19:51:59,957:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:51:59] "GET /data HTTP/1.1" 200 -
+2023-12-05 19:51:59,958:close:INFO:Closing down clientserver connection
+2023-12-05 19:52:00,013:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:52:00] "GET /plot HTTP/1.1" 200 -
+2023-12-05 19:52:14,927:close:INFO:Closing down clientserver connection
+2023-12-05 19:52:18,839:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:52:18,840:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:52:18,840:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:52:18,948:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:52:18,948:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:52:18,948:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:52:18,948:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:52:20,191:_log:INFO: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+2023-12-05 19:52:20,191:_log:INFO: * Restarting with stat
+2023-12-05 19:52:20,192:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:52:20,194:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:52:20,299:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:52:20,299:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:52:20,671:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2023-12-05 19:52:20,671:check_version:INFO:Probing node bootstrap-0 broker version
+2023-12-05 19:52:20,671:connect:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2023-12-05 19:52:20,778:check_version:INFO:Broker version identified as 2.5.0
+2023-12-05 19:52:20,778:check_version:INFO:Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-12-05 19:52:20,779:__init__:WARNING:group_id is None: disabling auto-commit.
+2023-12-05 19:52:20,779:change_subscription:INFO:Updating subscribed topics to: ('stock_data',)
+2023-12-05 19:52:22,028:_log:WARNING: * Debugger is active!
+2023-12-05 19:52:22,030:assign_from_subscribed:INFO:Updated partition assignment: [TopicPartition(topic='stock_data', partition=0)]
+2023-12-05 19:52:22,032:_log:INFO: * Debugger PIN: 935-858-223
+2023-12-05 19:52:22,032:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: connecting to 1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 [('172.30.150.66', 9092) IPv4]
+2023-12-05 19:52:22,138:connect:INFO:<BrokerConnection node_id=0 host=1x-nat-vl931-172-30-150-66.wireless.umass.edu:9092 <connecting> [IPv4 ('172.30.150.66', 9092)]>: Connection complete.
+2023-12-05 19:52:22,138:close:INFO:<BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2023-12-05 19:52:25,468:_log:INFO:127.0.0.1 - - [05/Dec/2023 19:52:25] "GET / HTTP/1.1" 200 -
+2023-12-05 19:52:29,416:close:INFO:Closing down clientserver connection
