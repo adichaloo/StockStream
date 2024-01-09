@@ -2,6 +2,7 @@
 This application analyzes large volume of stock data in near real time with minimal latency using Pyspark and Apache Kafka. The producers push live stock market data (with a fixed frequency) to a topic in Kafka pipeline. We set up a Pyspark consumer which reads this data asynchronously as any event is published to the topic. Pyspark is used to derive useful inisghts in real time on the aggregated historical and current stock data. The insights are rendered live on a browser using Flask. 
 
 Here is an architecture diagram of the application <br> 
+
 ![Alt text](https://github.com/mnswdhw/StockStream/blob/main/images/Screenshot%202024-01-09%20at%202.45.09%E2%80%AFAM.png)
 
 ## Details for Execution of Project ##
@@ -26,6 +27,8 @@ Here is an architecture diagram of the application <br>
   * Hit http://localhost:8080/data on the browser to see the analysis
 
 ## Example Real Time Analytics 
+The line plot and the analytics table shown below update in near real time and are re-rendered in the browser window. 
+
 ![Alt text](https://github.com/mnswdhw/StockStream/blob/main/images/Screenshot%202024-01-09%20at%203.17.31%E2%80%AFAM.png)
 ![Alt text](https://github.com/mnswdhw/StockStream/blob/main/images/Screenshot%202024-01-09%20at%203.17.48%E2%80%AFAM.png)
 
