@@ -1,5 +1,5 @@
  # StockStream #
-Live StockMarket Analysis 
+This application analyzes large volume of stock data in near real time with minimal latency using Pyspark and Apache Kafka. The producers push live stock market data (with a fixed frequency) to a topic in Kafka pipeline. We set up a Pyspark consumer which reads this data asynchronously as any event is published to the topic. Pyspark is used to derive useful inisghts in real time on the aggregated historical and current stock data. The insights are rendered live on a browser using Flask. 
 
 ## Details for Execution of Project ##
   * Installation of Kafka [Refer this link if process is not clear: https://medium.com/@the_infinity/apache-kafka-for-beginners-learn-kafka-by-hands-on-cc0bba8059cb]
